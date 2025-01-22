@@ -1,0 +1,51 @@
+body{
+    /* element sellsctor*/
+    background-color: black;
+    div{
+        background-color: rgb(2, 2, 81);
+    }
+    .red{
+        /*class selector*/
+        background-color: rgb(231, 4, 4);
+    }
+    h1,h2{
+        background-color: rgb(5, 182, 241);
+        color: rgb(201, 8, 8);
+    }
+    #green{
+        /*ID selector*/
+        background-color: green;
+    }
+    /*child selector*/
+    div > p{
+        color: white;
+        background-color: blue;
+    }
+    /*Descendant Selector */
+    span p{   /*only aone space between div and p */
+        color: rgb(244, 21, 5);
+        background-color: rgb(174, 255, 0);
+       }
+       /*universal Selector*/
+       *{
+        margin: 5;
+        padding: 5;
+       }
+       /*Pseudo selector*/
+     a:visited{
+        color: yellow;
+     }
+     a:link{
+        color: pink;
+     }
+     a:active{
+        background-color: red;
+     }
+     a:hover{
+        background-color: rgb(95, 246, 8);
+     }
+     p:first-child{
+        background-color: aqua;
+     }
+     
+}
